@@ -1,37 +1,16 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
 public class Main
-{  
-   
-    public String name; 
-    String division;  
-    private int age;    
-    public Main(String sname)  
-    {  
-        name = sname;  
-    }  
-  
-    public void setDiv(String sdiv)  
-    {  
-        division = sdiv;  
-    }  
-       
-    public void setAge(int sage)  
-    {  
-        age = sage;  
-    }  
-  
-
-    public void printstud()  
-    {  
-        System.out.println("Student Name: " + name );  
-        System.out.println("Student Division: " + division);   
-        System.out.println("Student Age: " + age);  
-    }  
-
-    public static void main(String args[])  
-    {  
-        Main s = new Main("Monica");  
-        s.setAge(14);  
-        s.setDiv("B");  
-        s.printstud();  
-    }  
-}  
+{
+	public static void main(String[] args) {
+		arr=new int[3];
+		int arr[]=new int[]{1,2,3,4};
+		System.out.println(intarr[]);
+	}
+}
